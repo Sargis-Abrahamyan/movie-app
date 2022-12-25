@@ -1,0 +1,16 @@
+.search {
+  --color_search_txt: #fff;
+
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+
+  img {
+    width: 22px;
+  }
+  .search_text {
+    color: var(--color_search_txt);
+    cursor: pointer;
+    margin-left: 1.9rem;
+  }
+}

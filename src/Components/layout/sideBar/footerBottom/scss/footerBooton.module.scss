@@ -1,0 +1,19 @@
+.footerBotton_container {
+  max-width: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 1.35rem;
+  
+  button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin: 0.5rem 0.75rem;
+    letter-spacing: 4.8px;
+    color: #858688;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

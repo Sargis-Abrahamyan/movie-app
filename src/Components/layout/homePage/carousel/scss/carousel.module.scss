@@ -1,0 +1,14 @@
+.carousel_container {
+  --colorCarousel__title: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .carousel_title {
+    color: var(--colorCarousel__title);
+    margin-bottom: 1.5rem;
+    font-size: 28px;
+    font-family: auto;
+  }
+}

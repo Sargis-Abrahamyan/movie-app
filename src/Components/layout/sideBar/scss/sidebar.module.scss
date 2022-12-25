@@ -1,0 +1,30 @@
+.sideBar_container {
+  --color_nav_bg: transparent
+    linear-gradient(90deg, #040404 0%, #040404fa 21%, #04040400 100%) 0% 0%
+    no-repeat padding-box;
+  --nav-width: 1660px;
+  height: 100vh;
+  position: fixed;
+  z-index: 5;
+
+  .nav {
+    width: var(--nav-width);
+    background: var(--color_nav_bg);
+    height: 100vh;
+    transition: width linear 0.3s;
+
+    .navBar {
+      max-width: 180px;
+      display: flex;
+      flex-direction: column;
+      gap: 8rem;
+      padding-top: 28px;
+    }
+  }
+
+  .nav_small {
+    width: 5rem;
+    height: 100%;
+    transition: width linear 0.2s;
+  }
+}

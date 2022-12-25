@@ -1,0 +1,14 @@
+.movieDate_container {
+  --dateMovie-textColor: #fff;
+
+  max-width: 140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 17px 0;
+
+  .movieDate_items {
+    font-size: 21px;
+    color: var(--movieDate-textColor);
+    font-family: auto;
+  }
+}

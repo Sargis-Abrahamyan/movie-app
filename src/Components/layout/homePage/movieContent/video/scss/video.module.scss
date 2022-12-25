@@ -1,0 +1,36 @@
+.video_container {
+  --modal--bg: rgba(31, 47, 58, 0.9);
+  --closeModal--bg: red;
+  --closeModal--color: #fff;
+
+  position: fixed;
+  background-color: var(--modal--bg);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .video_modal {
+    position: relative;
+    video {
+      width: 600px;
+    }
+
+    .videoModal_close {
+      position: absolute;
+      top: 3px;
+      right: 4px;
+      padding: 10px;
+      background: var(--closeModal--bg);
+      color: var(--closeModal--color);
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.movieContent_container {
+  --movieDescription_text_color: #f1f1f1;
+  --category_title: #858688;
+
+  max-width: 500px;
+  margin-top: 1rem;
+
+  .category_title {
+    letter-spacing: 4.8px;
+    color: var(--category_title);
+  }
+
+  .movie_title {
+    font-size: 65px;
+    font-weight: 800;
+    background-image: url('../../../../../assets/texture.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .movie_description {
+    text-align: left;
+    font: normal normal normal 22px/24px Tajawal;
+    letter-spacing: 0px;
+    font-family: auto;
+    margin: 15px 0;
+    color: var(--movieDescription_text_color);
+  }
+}

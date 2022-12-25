@@ -1,0 +1,28 @@
+.playMovie_container {
+  display: flex;
+  margin: 15px 0;
+
+  .movie_btn {
+    width: 165px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    &:first-child {
+      background: #fff;
+      color: black;
+    }
+    &:last-child {
+      color: #fff;
+      background: transparent linear-gradient(128deg, #2727f5 0%, #001671 100%)
+        0% 0% no-repeat padding-box;
+      margin: 0 5px;
+    }
+  }
+}
