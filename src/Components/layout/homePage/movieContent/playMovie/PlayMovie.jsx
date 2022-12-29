@@ -13,4 +13,4 @@ const PlayMovie = ({ handelModalAndClose }) => {
     )
 }
 
-export default PlayMovie
+export default PlayMovie;
