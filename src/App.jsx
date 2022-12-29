@@ -1,6 +1,6 @@
-import './App.scss';
 import Sidebar from './Components/layout/sideBar/Sidebar';
 import HomePage from './Components/layout/homePage/HomePage';
+import './App.scss';
 
 function App() {
   return (
